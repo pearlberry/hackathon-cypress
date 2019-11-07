@@ -1,7 +1,7 @@
 {
-  "name": "tutorial-cypress",
+  "name": "hackathon-cypress",
   "version": "1.0.0",
-  "description": "This contains Applitools Cypress tutorial",
+  "description": "Applitools hackathon using Cypress",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open"
