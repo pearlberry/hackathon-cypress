@@ -110,6 +110,10 @@ describe('Hackathon Traditional Tests', function () {
     			expect(originalElements[i]).to.equal(sortedElements[k]);
     		}
     	}
+    	/*The issue with this approach is that based on the application, the above test would pass
+    	if numbers were ordered such as: 1, 10, 2, 20, 3, 4, etc.
+    	So while this test would likely cover sorting if the app is developed properly, it may not 
+    catch initial sorting defects or regressions. This is where a visual testing tool would help*/
     })
 
     it('Canvas Chart Test', function () {
