@@ -1,7 +1,7 @@
-# Cypress tutorial
+Forked from Cypress + Applitools tutorial
 
-Please see https://applitools.com/tutorials/cypress.html for all the details.
-
-# NPM docs
-The following NPM docs contains all the update information for this SDK
-https://www.npmjs.com/package/@applitools/eyes-cypress#configure-plugin-and-commands
+# How to run tests
+1. Clone repository
+2. Within the repo, run npm install
+3. Run './node_modules/cypress/bin/cypress open'
+4. Click on the desired test suite to run
